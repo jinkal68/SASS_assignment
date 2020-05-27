@@ -1,0 +1,32 @@
+%btndesign {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin: 5px;
+}
+
+.btn1 {
+  @extend %btndesign;
+  background-color: $btndesigncolor;
+  color: $textcolor;
+  text-decoration: none;
+}
+.btn2 {
+  @extend %btndesign;
+  background-color: lighten($btndesigncolor, 20%);
+  color: $textcolor;
+  text-decoration: none;
+}
+.btn3 {
+  @extend %btndesign;
+  background-color: lighten($btndesigncolor, 30%);
+  color: $textcolor;
+  text-decoration: none;
+}
+.btn4 {
+  @extend %btndesign;
+  background-color: $aboutcardh1;
+  color: $textcolor;
+  text-decoration: none;
+  margin-left: 20px;
+}

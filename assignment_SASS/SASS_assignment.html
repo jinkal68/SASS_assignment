@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>small_website</title>
+    <link rel="stylesheet" href="SASS_assignment.css" />
+    <link rel="stylesheet" href="aos.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="nav">
+      <div>
+        <h2>TryCatch Classes*</h2>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#"></a><strong>HOME</strong></li>
+          <li><a href="#"></a><strong>ABOUT</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- homepage -->
+    <div class="homebgimg">
+      <div class="homepagecontent">
+        <div class="hometile">
+          <h1>
+            WELCOME TO THE BEST <span>TRYCATCH</span>
+            CLASSES
+          </h1>
+          <a href="#" class="btn3" data-aos="fade-up" data-aos-duration="2000"
+            >GET STARTED NOW</a
+          >
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-duration="2000">
+          <h3>Where anyone can be a developer</h3>
+          <img src="hero_right.png" />
+          <p class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+            vitae dolore.
+          </p>
+          <p class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+            vitae dolore.
+          </p>
+          <a href="#" class="btn1">Learn More</a>
+          <a href="#" class="btn2">Sign Up</a>
+        </div>
+      </div>
+    </div>
+    <!-- about page -->
+
+    <div class="aboutus">
+      <div class="aboutcard" data-aos="fade-up" data-aos-duration="2000">
+        <div>
+          <h1 class="about_card_h1">About <br /><span>Us</span></h1>
+          <p class="para">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+            eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+            vitae dolore.
+          </p>
+          <a href="#" class="btn4">Read More</a>
+        </div>
+
+        <div class="aboutcardimg">
+          <img src="aboutus.jpg" />
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="js/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    $(".count").counterUp({
+      delay: 10,
+      time: 1000,
+    });
+  </script>
+</html>

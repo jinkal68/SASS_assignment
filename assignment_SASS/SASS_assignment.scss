@@ -1,0 +1,132 @@
+@import "./SASS_variables";
+@import "./SASS_btn";
+@import "./SASS_btn";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $navbgcolor;
+  font-family: "Bebas";
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    color: $navtextcolor;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 15px;
+  }
+  h2 {
+    color: $navtextcolor;
+  }
+}
+
+li:hover {
+  text-decoration: underline;
+  color: $a;
+}
+// homepage
+.homebgimg {
+  background-image: url("bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  padding: 30px 0;
+}
+.homepagecontent {
+  display: inline-flex;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  font-family: $fontfamily;
+}
+.hometile {
+  // margin-left: 0;
+  width: 500px;
+  margin-top: 150px;
+  font-family: $fontfamily;
+
+  h1 {
+    color: $textcolor;
+    margin-bottom: 25px;
+  }
+  span {
+    color: $spancolor;
+  }
+}
+.box {
+  background-color: #f3f7ff;
+  height: 600px;
+  margin-left: 280px;
+  width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  img {
+    padding-left: 35px;
+    padding-top: 15px;
+    width: 300px;
+    padding-bottom: 15px;
+  }
+  p {
+    margin: 10px 0;
+    color: $aboutcardh1;
+  }
+  h3 {
+    border-bottom: 2px solid $borderbottom;
+    text-align: center;
+    // padding-left: 15px;
+    padding: 20px;
+    color: $btndesigncolor;
+    font-size: 25px;
+    // margin-top: 15px;
+  }
+}
+
+.aboutus {
+  height: 700px;
+  background: linear-gradient(90deg, rgb(158, 228, 158) 50%, white 50%);
+  //background: linear-gradient(90deg, #100a54 50%, white 50%);
+  //100851
+  // margin: 150px auto;
+  // margin-top: 0px;
+  // width: 100%;
+  position: relative;
+}
+.aboutcard {
+  height: 500px;
+  position: absolute;
+  width: 800px;
+  background-color: $textcolor;
+
+  left: 25%;
+  top: 15%;
+  box-shadow: 10px 10px 5px grey;
+  display: inline-flex;
+  .about_card_h1 {
+    color: $aboutcardh1;
+    font-family: $fontfamily;
+    font-size: 50px;
+    margin-top: 90px;
+    padding-left: 20px;
+  }
+  .para {
+    color: $aboutcardh1;
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  .aboutcardimg {
+    margin-top: 90px;
+  }
+}
